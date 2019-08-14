@@ -11,6 +11,7 @@ class Exercises
 {
     var name: String;
     var musclesHit = Array<String>();
+    var edit;
     
     init(name: String, musclesHit: Array<String>) {
         self.name = name;

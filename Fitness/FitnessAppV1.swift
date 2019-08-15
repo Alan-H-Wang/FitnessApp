@@ -9,13 +9,13 @@
 import Foundation
 class FitnessAppV1
 {
-    var benchPress: Exercises;
-    var skullCrushers: Exercises;
-    var pushDay: Workouts;
+    var benchPress: Exercise;
+    var skullCrushers: Exercise;
+    var pushDay: Workout;
     var pushPullLegs: Program;
     
     init() {
-        benchPress = Exercises(name: "Bench Press", musclesHit: ["Chest", "Triceps"])
+        benchPress = Exercise(name: "Bench Press", musclesHit: ["Chest", "Triceps"])
     };
     
 }

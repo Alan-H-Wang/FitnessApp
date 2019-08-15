@@ -10,9 +10,9 @@ import Foundation
 class Program
 {
     var name: String;
-    var workouts: [Workouts];
+    var workouts: [Workout];
     
-    init(name: String, workouts: [Workouts]) {
+    init(name: String, workouts: [Workout]) {
         self.name = name;
         self.workouts = workouts;
     }

@@ -7,14 +7,12 @@
 //
 
 import Foundation
-class Workouts
-{
-    var exercises = Array<Exercises>();
-    var setsAndReps = [Int]();
-    var name: String;
+struct Workout{
+    var name: String
+    var exercises: [Exercise]
     
-    init(name: String) {
-        self.name = name;
-        setsAndReps = Array(repeating: 8, count: 3);
+    init(name: String, exercises: [Exercise]){
+        self.name = name
+        self.exercises = exercises
     }
 }

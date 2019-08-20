@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9B65CB9230C0300000ADF36 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B65CB8230C0300000ADF36 /* MainNavigationController.swift */; };
+		E9B65CBB230C78C0000ADF36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B65CBA230C78C0000ADF36 /* HomeViewController.swift */; };
 		F527AE3922FA66BB0005E9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527AE3822FA66BB0005E9C6 /* AppDelegate.swift */; };
 		F527AE3E22FA66BB0005E9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F527AE3C22FA66BB0005E9C6 /* Main.storyboard */; };
 		F527AE4022FA66BC0005E9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F527AE3F22FA66BC0005E9C6 /* Assets.xcassets */; };
@@ -14,14 +16,15 @@
 		F56EE1B722FF9ECD000125FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE1B622FF9ECD000125FC /* ProfileViewController.swift */; };
 		F56EE1C422FFB06D000125FC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE1C322FFB06D000125FC /* LogInViewController.swift */; };
 		F575241A23023FAC00DF3CE7 /* TDEEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575241923023FAC00DF3CE7 /* TDEEViewController.swift */; };
-		F584B50422FF4B8A00173542 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F584B50322FF4B8A00173542 /* HomeViewController.swift */; };
 		F596C54C2303A5970086C829 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C54B2303A5970086C829 /* Exercise.swift */; };
-		F596C54E2303A6390086C829 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C54D2303A6390086C829 /* Workouts.swift */; };
+		F596C54E2303A6390086C829 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C54D2303A6390086C829 /* Workout.swift */; };
 		F596C5502303A9110086C829 /* FitnessAppV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C54F2303A9110086C829 /* FitnessAppV1.swift */; };
 		F596C5522303A9250086C829 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596C5512303A9250086C829 /* Program.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9B65CB8230C0300000ADF36 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		E9B65CBA230C78C0000ADF36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F527AE3522FA66BB0005E9C6 /* Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527AE3822FA66BB0005E9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F527AE3D22FA66BB0005E9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,9 +34,8 @@
 		F56EE1B622FF9ECD000125FC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F56EE1C322FFB06D000125FC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		F575241923023FAC00DF3CE7 /* TDEEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDEEViewController.swift; sourceTree = "<group>"; };
-		F584B50322FF4B8A00173542 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F596C54B2303A5970086C829 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		F596C54D2303A6390086C829 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		F596C54D2303A6390086C829 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		F596C54F2303A9110086C829 /* FitnessAppV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppV1.swift; sourceTree = "<group>"; };
 		F596C5512303A9250086C829 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,13 +71,14 @@
 			isa = PBXGroup;
 			children = (
 				F527AE3822FA66BB0005E9C6 /* AppDelegate.swift */,
-				F584B50322FF4B8A00173542 /* HomeViewController.swift */,
+				E9B65CB8230C0300000ADF36 /* MainNavigationController.swift */,
+				E9B65CBA230C78C0000ADF36 /* HomeViewController.swift */,
 				F56EE1C322FFB06D000125FC /* LogInViewController.swift */,
 				F56EE1B622FF9ECD000125FC /* ProfileViewController.swift */,
 				F575241923023FAC00DF3CE7 /* TDEEViewController.swift */,
 				F596C54F2303A9110086C829 /* FitnessAppV1.swift */,
 				F596C5512303A9250086C829 /* Program.swift */,
-				F596C54D2303A6390086C829 /* Workouts.swift */,
+				F596C54D2303A6390086C829 /* Workout.swift */,
 				F596C54B2303A5970086C829 /* Exercise.swift */,
 				F527AE3C22FA66BB0005E9C6 /* Main.storyboard */,
 				F527AE3F22FA66BC0005E9C6 /* Assets.xcassets */,
@@ -158,13 +161,14 @@
 			files = (
 				F527AE3922FA66BB0005E9C6 /* AppDelegate.swift in Sources */,
 				F596C5502303A9110086C829 /* FitnessAppV1.swift in Sources */,
+				E9B65CB9230C0300000ADF36 /* MainNavigationController.swift in Sources */,
 				F596C54C2303A5970086C829 /* Exercise.swift in Sources */,
 				F56EE1C422FFB06D000125FC /* LogInViewController.swift in Sources */,
+				E9B65CBB230C78C0000ADF36 /* HomeViewController.swift in Sources */,
 				F56EE1B722FF9ECD000125FC /* ProfileViewController.swift in Sources */,
 				F596C5522303A9250086C829 /* Program.swift in Sources */,
-				F584B50422FF4B8A00173542 /* HomeViewController.swift in Sources */,
 				F575241A23023FAC00DF3CE7 /* TDEEViewController.swift in Sources */,
-				F596C54E2303A6390086C829 /* Workouts.swift in Sources */,
+				F596C54E2303A6390086C829 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

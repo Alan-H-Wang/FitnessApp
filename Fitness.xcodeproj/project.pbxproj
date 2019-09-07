@@ -69,24 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E92E659623200F9E00FB61EE /* Unused Files */ = {
-			isa = PBXGroup;
-			children = (
-				E928F2E7230D23070058975A /* WorkoutButton.swift */,
-				E928F2E5230D21C80058975A /* AvailableWorkoutData.swift */,
-				F596C54F2303A9110086C829 /* FitnessAppV1.swift */,
-				E9B65CB8230C0300000ADF36 /* MainTabBarController.swift */,
-				E9B65CBA230C78C0000ADF36 /* HomeViewController.swift */,
-				F56EE1B622FF9ECD000125FC /* ProfileViewController.swift */,
-				F56EE1C322FFB06D000125FC /* LogInViewController.swift */,
-				F575241923023FAC00DF3CE7 /* TDEEViewController.swift */,
-				E928F2E3230D20360058975A /* BrowseWorkoutsViewController.swift */,
-				F527AE3C22FA66BB0005E9C6 /* Main.storyboard */,
-				F596C5512303A9250086C829 /* Program.swift */,
-			);
-			path = "Unused Files";
-			sourceTree = "<group>";
-		};
 		F527AE2C22FA66BB0005E9C6 = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +88,18 @@
 		F527AE3722FA66BB0005E9C6 /* Fitness */ = {
 			isa = PBXGroup;
 			children = (
-				E92E659623200F9E00FB61EE /* Unused Files */,
 				F527AE3822FA66BB0005E9C6 /* AppDelegate.swift */,
+				E928F2E7230D23070058975A /* WorkoutButton.swift */,
+				E928F2E5230D21C80058975A /* AvailableWorkoutData.swift */,
+				F596C54F2303A9110086C829 /* FitnessAppV1.swift */,
+				E9B65CB8230C0300000ADF36 /* MainTabBarController.swift */,
+				E9B65CBA230C78C0000ADF36 /* HomeViewController.swift */,
+				F56EE1B622FF9ECD000125FC /* ProfileViewController.swift */,
+				F56EE1C322FFB06D000125FC /* LogInViewController.swift */,
+				F575241923023FAC00DF3CE7 /* TDEEViewController.swift */,
+				E928F2E3230D20360058975A /* BrowseWorkoutsViewController.swift */,
+				F527AE3C22FA66BB0005E9C6 /* Main.storyboard */,
+				F596C5512303A9250086C829 /* Program.swift */,
 				E9EB8F5B2323191500C22089 /* ExerciseViewController.swift */,
 				E9EB8F572321FA9B00C22089 /* ExercisesTableViewController.swift */,
 				F596C54D2303A6390086C829 /* Workout.swift */,

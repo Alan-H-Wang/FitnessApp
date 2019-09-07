@@ -5,15 +5,14 @@
 //  Created by Alan Wang on 8/13/19.
 //  Copyright © 2019 Alan Wang. All rights reserved.
 //
-
-import Foundation
+ /*import Foundation
 class FitnessAppV1
 {
     var exercises: [Exercise]
-    var workouts: [Workout]
-    var programs: [Program]
+    var workouts: [Workout?]
+    //var programs: [Program]
     
-    
+   
     var benchPress = Exercise(name: "Bench Press")
     var inclinePress =  Exercise(name: "Incline Press")
     var shoulderPress =  Exercise(name: "Shoulder Press")
@@ -34,10 +33,14 @@ class FitnessAppV1
         var push = Workout(name: "Push Day", exercises: [benchPress, inclinePress, shoulderPress, skullCrushers])
         var pull = Workout(name: "Pull Day", exercises: [latPullDown, bicepCurls, pullUp])
         var legs = Workout(name: "Leg Day", exercises: [squat, deadlift, legPress])
-        var pushPullLegs = Program(name: "PPL", workouts: [push, pull, legs])
+        //var pushPullLegs = Program(name: "PPL", workouts: [push, pull, legs])
         exercises = [benchPress, inclinePress, shoulderPress, skullCrushers, latPullDown, bicepCurls, pullUp, squat, deadlift, legPress]
         workouts = [push, pull, legs]
-        programs = [pushPullLegs]
-    }
-    
-}
+        //programs = [pushPullLegs]
+ }}
+ */
+
+ 
+
+
+

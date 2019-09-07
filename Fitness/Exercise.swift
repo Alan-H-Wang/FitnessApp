@@ -1,9 +1,9 @@
 //
-//  Exercises.swift
-//  Fitness
+//  Exercise.swift
+//  FitnessAppTrial
 //
-//  Created by Alan Wang on 8/13/19.
-//  Copyright © 2019 Alan Wang. All rights reserved.
+//  Created by Albert Stanley on 8/9/19.
+//  Copyright © 2019 Albert Stanley. All rights reserved.
 //
 
 import Foundation

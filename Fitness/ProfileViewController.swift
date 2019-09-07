@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  ProfileMakerViewController.swift
 //  Fitness
 //
 //  Created by Alan Wang on 8/10/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileMakerViewController: UIViewController {
    
     @IBOutlet weak var TDEELabel: UILabel!
     
